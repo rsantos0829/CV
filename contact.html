@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <!-- <Strong><h1>My Contact Information</h1></Strong>
+  <p>How to get in touch with me:</p>
+  <ol>
+    <li>Email: r.santos.d123@gmail.com</li>
+    <li>Cell: (973) 494-4270</li> -->
+  </ol>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Contact info</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Email</td>
+        <td>r.santos.d123@gmail.com</td>
+      </tr>
+      <tr>
+        <td>Cell Phone</td>
+        <td>(978)494-4290</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <!-- creating a field to enter text and a submit button. Use the "form" and inside that we use the "labels" and "input" tags.   -->
+  <form action="mailto:rafa_cavalo@hotmail.com" enctype="text/plain" method="post">
+    <label>Your Name</label>
+    <input type="text" name="yourName"> <br>
+    <label>Your Email</label>
+    <input type="email" name="yourEmail"> <br>
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" id="10" cols="30" rows="10"></textarea><br>
+    Would you like to sign up to my email list?
+    <input type="checkbox"><br>
+    <input type="submit">
+  </form>
+    <!-- inside the 'label' tags, we can label things.-->
+    <!-- inside the "input" tags we add whatever we want to have the user to input. Each type input renders a different outcome. text = people can enter things into, password = people can enter their passwords and what they enter comes out hidden, checkbox = adds a checkbox, submit = adds a submit button, etc.  -->
+    <!-- On the MDN website for forms there's a bunch of other things that we can add to the "input" tag. To go further, we need to add JavaScript.  -->
+</body>
+</html>

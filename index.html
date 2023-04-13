@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<!-- to start a HTML page, just start typing ! and the rest will be autocomplete. -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rafael's Personal Site</title>
+  <!-- Title tag adds the title on the page tab. -->
+</head>
+
+<body>
+<table cellspacing="20">
+  <tr>
+    <td><!-- this adds an image to the page, the 'alt' tag adds the description. -->
+      <img src="Picture from Linkedin.jpeg" alt="Rafael's profile picture'"></td>
+    <td><h1>Rafael Santos</h1>
+      <!-- ideally, there should only be one <h1> tag per page -->
+      <p><em>Nurse and aspiring software developer</em> </p>
+      <!-- there are many different tags that alter the text. <em> makes it italic like but not literally. There's also an <i>. -->
+      <p>I love a good cup of iced coffee and getting dirty on the trails with my Xterra 🤙🏽. Also, I am a devout Born Again Christian who loves to talk about Jesus and theology. </p>
+      <!-- <p> is for paragraphs or groupings of texts. --></td>
+  </tr>
+  <!-- Up here, we used the table element to create a better layout to the page; the picture and the heading information are side-by-side.  -->
+</table>
+
+<hr size="1" color="black">
+<!-- <hr> creates a horizontal line across the page. it can also be altered with different attributes like size and color. -->
+<LH>Favorite authors</LH> <!-- <lh> creates a list heading!-->
+  <ul>
+    <li>A. W. Tozer</li>
+    <li>C. S. Lewis</li>
+  </ul>
+  <!-- this is an "unordered list." it uses the <ul> and than it needs <li> inside to make up each item (list items).  -->
+    <hr>
+    <table>
+      <th>Work Experience</th>
+    <tr>
+      <td>2022-Present</td>
+      <td>Benchmark Senior Living at Leominster Crossings</td>
+    </tr>
+    <tr>
+      <td>2021-2022</td>
+      <td>Sterling Village Nursing and Rehab</td>
+    </tr>
+    <!-- <tr> creates another cell. 
+      <td></td> Each one of these is a "table data" and it will create 
+                Cells for each <td> tag. 
+    </tr> -->
+  </table>
+  <!-- the <table> tag creates a space to display list of items on a grid. It has rolls and Cells. Cells are verticle and rolls are horizontal. This is done by adding <tr> "table roll" tags that houses <td> "table data" tags. Each <tr> tag will create a roll and each <td> will create a column. -->
+    <hr>
+  <table> <!-- this is how to write a table with headers. Makes it more descriptive. -->
+      <thead> <!-- this is the table header-->
+        <tr>
+          <th>Header</th>
+        </tr>
+      </thead> 
+      <tbody> <!-- this is the table body-->
+        <tr>
+          <td>Table</td>
+          <td>Body</td>
+        </tr>
+      </tbody>
+      <tfoot> <!--this is the table footer-->
+        <tr>
+          <td>Table</td>
+          <td>foot</td>
+        </tr>
+      </tfoot>
+  </table>
+  <hr>
+<!-- Writing the first table by myself. -->
+<table>
+  <h3>Work Experience</h3>
+  <thead><!--table header cell-->
+    <tr>
+      <th>Dates</th>
+      <th>Work</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2022-Present</td>
+      <td>Benchmark Senior Living at Leominster Crossings</td>
+    </tr>
+    <tr>
+      <td>2021-2022</td>
+      <td>Sterling Village Nursing and Rehab</td>
+    </tr>
+  </tbody>
+  <tfoot></tfoot>
+</table>
+<hr>
+<!-- table containing Skills portion below.-->
+<h3>Skills</h3>
+<table cellspacing="10"> <!-- this adds space between each cell. -->
+  <tbody>
+    <tr>
+      <td>
+        <td>- HTML</td>
+        <td>🤔</td>
+        <td>- CSS</td>
+        <td>🤷‍♂️</td>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <td>- Javascript</td>
+        <td>😒</td>
+        <td>- Python</td>
+        <td>😒</td>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p>----the table below has a nested table inside of it. It creates two different cells that can be independently altered----</p>
+<!-- the table above has two nested table inside of it. -->
+<table>
+  <tr>
+      <td>- Javascript</td>
+      <td>😒</td>
+      <td>- Python</td>
+      <td>😒</td>
+  </tr>
+  <tr>
+      <td>- HTML</td>
+      <td>🤔</td>
+      <td>- CSS</td>
+      <td>🤷‍♂️</td>
+  </tr>
+</table>
+<hr>
+<!-- footer of page underneath -->
+  <strong><a href="hobbies.html">My hobbies</a></strong>
+  <p><a href="contact.html">Get in touch with me!</a></p>
+  <!-- to add links to a page, use <a></a> tag that will . This can either be a webiste link or link to a another file, like in this case, it's linking the other files in this folder to this one, creating a multi-page website. -->
+</body>
+</html>
+
